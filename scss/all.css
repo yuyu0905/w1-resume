@@ -98,14 +98,14 @@ img {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 64px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  gap: 24px;
+}
+
+.list li {
+  margin-bottom: 24px;
+}
+
+.list li:last-child {
+  margin-bottom: 0;
 }
 
 .header h1 {
@@ -121,8 +121,12 @@ img {
   max-width: 324px;
 }
 
-.education .list {
-  gap: 16px;
+.education .list li {
+  margin-bottom: 16px;
+}
+
+.education .list li:last-child {
+  margin-bottom: 0;
 }
 
 .skills {
@@ -133,16 +137,6 @@ img {
 
 .skills .container {
   padding: 0 102px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .skills .title {
@@ -154,8 +148,16 @@ img {
 .skills .list {
   margin-bottom: 0px;
   padding-left: 24px;
+  margin-left: 400px;
   border-left: 1px solid #96A9C4;
-  gap: 8px;
+}
+
+.skills .list li {
+  margin-bottom: 8px;
+}
+
+.skills .list li:last-child {
+  margin-bottom: 0;
 }
 
 .work .list {
@@ -190,7 +192,14 @@ img {
 
 .footer .list {
   margin-bottom: 0px;
-  gap: 16px;
+}
+
+.footer .list li {
+  margin-bottom: 16px;
+}
+
+.footer .list li:last-child {
+  margin-bottom: 0;
 }
 
 .footer img {

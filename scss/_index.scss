@@ -33,9 +33,12 @@
     font-size: 24px;
     line-height: 1.5;
     margin-bottom: 64px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+    li {
+        margin-bottom: 24px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .header {
@@ -54,7 +57,12 @@
 
 .education {
     .list {
-        gap: 16px;
+        li {
+            margin-bottom: 16px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 }
 
@@ -64,9 +72,6 @@
     margin-bottom: 64px;
     .container {
         padding: 0 102px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     .title {
         width: 100%;
@@ -76,8 +81,14 @@
     .list {
         margin-bottom: 0px;
         padding-left: 24px;
+        margin-left: 400px;
         border-left: 1px solid #96A9C4;
-        gap: 8px;
+        li {
+            margin-bottom: 8px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 }
 
@@ -112,7 +123,12 @@
 
     .list {
         margin-bottom: 0px;
-        gap: 16px;
+        li {
+            margin-bottom: 16px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
     }
 
     img {
