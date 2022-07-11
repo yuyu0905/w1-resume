@@ -1,0 +1,122 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 1.5;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+    font-weight: bold;
+
+    &-sub {
+        font-size: 24px;
+        line-height: 1.5;
+        color: #A00404;
+        padding-left: 16px;
+    }
+}
+
+.text-white {
+    color: #FFFFFF;
+    .title {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .title-sub {
+        color: #FFFFFF;
+    }
+}
+
+.list {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.header {
+    h1 {
+        font-size: 80px;
+        line-height: 95px;
+        padding-top: 40px;
+        padding-bottom: 24px;
+        border-bottom: 2px solid #000;
+    }
+    img {
+        margin: 48px 0;
+        max-width: 324px;
+    }
+}
+
+.education {
+    .list {
+        gap: 16px;
+    }
+}
+
+.skills {
+    background-color: #415165;
+    padding: 24px 0 40px 0;
+    margin-bottom: 64px;
+    .container {
+        padding: 0 102px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .list {
+        margin-bottom: 0px;
+        padding-left: 24px;
+        border-left: 1px solid #96A9C4;
+        gap: 8px;
+    }
+}
+
+.work {
+    .list {
+        margin-left: 24px;
+        margin-bottom: 80px;
+        padding-left: 24px;
+        border-left: 1px solid #96A9C4;
+        h3 {
+            font-weight: bold;
+        }
+        p {
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        img {
+            max-width: 100px;
+        }
+    }
+}
+
+.footer {
+    background-color: #415165;
+    padding: 24px 0 40px 0;
+    text-align: center;
+
+    .title {
+        margin-bottom: 24px;
+    }
+
+    .list {
+        margin-bottom: 0px;
+        gap: 16px;
+    }
+
+    img {
+        max-width: 48px;
+        margin-right: 24px;
+    }
+}
