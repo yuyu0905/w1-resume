@@ -57,6 +57,10 @@ table {
           box-sizing: border-box;
 }
 
+body {
+  line-height: 1.5;
+}
+
 img {
   vertical-align: middle;
 }
@@ -68,7 +72,6 @@ img {
 
 .title {
   font-size: 32px;
-  line-height: 1.5;
   padding-bottom: 8px;
   border-bottom: 1px solid #000;
   margin-bottom: 16px;
@@ -77,7 +80,6 @@ img {
 
 .title-sub {
   font-size: 24px;
-  line-height: 1.5;
   color: #A00404;
   padding-left: 16px;
 }
@@ -96,7 +98,6 @@ img {
 
 .list {
   font-size: 24px;
-  line-height: 1.5;
   margin-bottom: 64px;
 }
 
@@ -173,7 +174,6 @@ img {
 
 .work .list p {
   font-size: 20px;
-  line-height: 30px;
 }
 
 .work .list img {
