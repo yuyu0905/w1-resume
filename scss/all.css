@@ -155,9 +155,9 @@ img {
   margin-bottom: 40px;
 }
 .skills .list {
-  margin-bottom: 0px;
   padding-left: 24px;
-  margin-left: 400px;
+  width: 25%;
+  margin: 0 auto;
   border-left: 1px solid #96A9C4;
 }
 .skills .list li {
