@@ -16,3 +16,10 @@ body {
 img {
     vertical-align: middle;
 }
+
+a {
+    text-decoration: none;
+    &:hover {
+        color: #A00404;
+    }
+}

@@ -148,5 +148,8 @@
     img {
         max-width: 48px;
         margin-right: 24px;
+        &:hover {
+            background-color: #A00404;
+        }
     }
 }
