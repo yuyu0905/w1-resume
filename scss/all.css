@@ -43,7 +43,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -53,12 +53,12 @@ table {
 }
 
 *, *::before, *::after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
   line-height: 1.5;
+  font-family: "SF Pro Text", "Microsoft JhengHei";
 }
 
 img {
@@ -71,15 +71,12 @@ img {
 }
 
 .title {
-  font-size: 32px;
   padding-bottom: 8px;
   border-bottom: 1px solid #000;
   margin-bottom: 16px;
   font-weight: bold;
 }
-
 .title-sub {
-  font-size: 24px;
   color: #A00404;
   padding-left: 16px;
 }
@@ -87,24 +84,31 @@ img {
 .text-white {
   color: #FFFFFF;
 }
-
 .text-white .title {
   border-bottom: 1px solid #FFFFFF;
 }
-
 .text-white .title-sub {
   color: #FFFFFF;
 }
 
-.list {
-  font-size: 24px;
-  margin-bottom: 64px;
+.text-sfPro {
+  font-family: "SF Pro Text";
 }
 
+.fsz-xl {
+  font-size: 32px;
+}
+
+.fsz-lg {
+  font-size: 24px;
+}
+
+.list {
+  margin-bottom: 64px;
+}
 .list li {
   margin-bottom: 24px;
 }
-
 .list li:last-child {
   margin-bottom: 0;
 }
@@ -116,16 +120,24 @@ img {
   padding-bottom: 24px;
   border-bottom: 2px solid #000;
 }
-
 .header img {
   margin: 48px 0;
   max-width: 324px;
 }
 
+.profile {
+  margin-bottom: 64px;
+}
+.profile .list {
+  margin-bottom: 24px;
+}
+.profile .list li {
+  margin-bottom: 0;
+}
+
 .education .list li {
   margin-bottom: 16px;
 }
-
 .education .list li:last-child {
   margin-bottom: 0;
 }
@@ -135,28 +147,22 @@ img {
   padding: 24px 0 40px 0;
   margin-bottom: 64px;
 }
-
 .skills .container {
   padding: 0 102px;
 }
-
 .skills .title {
-  width: 100%;
   text-align: center;
   margin-bottom: 40px;
 }
-
 .skills .list {
   margin-bottom: 0px;
   padding-left: 24px;
   margin-left: 400px;
   border-left: 1px solid #96A9C4;
 }
-
 .skills .list li {
   margin-bottom: 8px;
 }
-
 .skills .list li:last-child {
   margin-bottom: 0;
 }
@@ -167,15 +173,12 @@ img {
   padding-left: 24px;
   border-left: 1px solid #96A9C4;
 }
-
 .work .list h3 {
   font-weight: bold;
 }
-
 .work .list p {
   font-size: 20px;
 }
-
 .work .list img {
   max-width: 100px;
 }
@@ -185,25 +188,19 @@ img {
   padding: 24px 0 40px 0;
   text-align: center;
 }
-
 .footer .title {
   margin-bottom: 24px;
 }
-
 .footer .list {
   margin-bottom: 0px;
 }
-
 .footer .list li {
   margin-bottom: 16px;
 }
-
 .footer .list li:last-child {
   margin-bottom: 0;
 }
-
 .footer img {
   max-width: 48px;
   margin-right: 24px;
-}
-/*# sourceMappingURL=all.css.map */
+}/*# sourceMappingURL=all.css.map */

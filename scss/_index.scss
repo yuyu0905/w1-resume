@@ -4,14 +4,12 @@
 }
 
 .title {
-    font-size: 32px;
     padding-bottom: 8px;
     border-bottom: 1px solid #000;
     margin-bottom: 16px;
     font-weight: bold;
 
     &-sub {
-        font-size: 24px;
         color: #A00404;
         padding-left: 16px;
     }
@@ -27,8 +25,19 @@
     }
 }
 
-.list {
+.text-sfPro {
+    font-family: "SF Pro Text";
+}
+
+.fsz-xl {
+    font-size: 32px;
+}
+
+.fsz-lg {
     font-size: 24px;
+}
+
+.list {
     margin-bottom: 64px;
     li {
         margin-bottom: 24px;
@@ -52,6 +61,16 @@
     }
 }
 
+.profile {
+    margin-bottom: 64px;
+    .list {
+        margin-bottom: 24px;
+        li {
+            margin-bottom: 0;
+        }
+    }
+}
+
 .education {
     .list {
         li {
@@ -71,7 +90,6 @@
         padding: 0 102px;
     }
     .title {
-        width: 100%;
         text-align: center;
         margin-bottom: 40px;
     }
